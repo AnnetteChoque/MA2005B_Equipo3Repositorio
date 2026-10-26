@@ -18,9 +18,13 @@ Implementación y validación de un laboratorio de pruebas para DNSSEC que demue
 ## Integrantes del Equipo
 
 **Alicia Sofía Bernádez Terrazas** | A01562634 
+
 **Annette Abigail Choque Millán** | A00842260 
+
 **Bianca Cordero Hernández** | A00840981 
+
 **Mariana Hernández Jiménez** | A00841920 
+
 **Nuria Muñoz Viana** | A01833488 
 
 ---
@@ -43,4 +47,6 @@ MA2005B_Equipo3Repositorio/
     ├── Equipo3_Actividad2Reto.pdf
     ├── Equipo3_Actividad3Reto.pdf
     ├── Equipo3_ReporteTecnico.pdf
-    └── Equipo3_ReporteEjecutivo.pdf
+    ├── Equipo3_ReporteEjecutivo.pdf
+    ├── Equipo3_PresentaciónEjecutiva.pdf
+    └── Equipo3_VideoExplicativo.pdf
