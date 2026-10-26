@@ -1,0 +1,17 @@
+dominio	padre	estado	detalle	ttl_ds	ttl_dnskey	ttl_soa
+.	-	SEGURO	Raiz autenticada		86400	86400
+unsigned.	.	INSEGURO	Ausencia DS probada con NSEC	86400		86400
+alpha.unsigned.	unsigned.	INSEGURO	Hereda delegacion insegura			86400
+delta.unsigned.	unsigned.	INSEGURO	Hereda delegacion insegura			3600
+epsilon.unsigned.	unsigned.	INSEGURO	Hereda delegacion insegura			3600
+zeta.unsigned.	unsigned.	INSEGURO	Hereda delegacion insegura			3600
+signed.	.	SEGURO	DS, DNSKEY y RRSIG validos	86400	3600	3600
+beta.signed.	signed.	SEGURO	DS, DNSKEY y RRSIG validos	3600	3600	3600
+gamma.signed.	signed.	INSEGURO	Ausencia DS probada con NSEC	3600		3600
+theta.signed.	signed.	SEGURO	DS, DNSKEY y RRSIG validos	3600	3600	3600
+iota.signed.	signed.	SEGURO	DS, DNSKEY y RRSIG validos	3600	3600	3600
+kappa.signed.	signed.	INSEGURO	Ausencia DS probada con NSEC	3600		3600
+test.	.	SEGURO	DS, DNSKEY y RRSIG validos	86400	3600	3600
+sinds.test.	test.	INSEGURO	Ausencia DS probada con NSEC	3600		3600
+dserror.test.	test.	BOGUS	DS del padre NO coincide con KSK del hijo			
+expirado.test.	test.	BOGUS	no RRSIGs validated			
